@@ -13,6 +13,6 @@ public interface UserDao {
 
     void delete(Long id);
 
-    User loadUserByUserName(String email);
+    User loadUserByUserName(String name);
     User loadUserById(Long id);
 }

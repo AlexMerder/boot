@@ -25,11 +25,4 @@ public class UserController {
         model.addAttribute("user", userService.getUserByFirstName(auth.getName()));
         return "user";
     }
-    @GetMapping("/welcome")
-    public String welcome(Model model){
-        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-        model.addAttribute("user", userService.getUserByFirstName(auth.getName()));
-        return "welcome";
-    }
-
 }
