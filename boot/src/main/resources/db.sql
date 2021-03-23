@@ -11,14 +11,15 @@
 -- Data for table `employee`
 --
 
-# INSERT INTO `user` VALUES
-# (1,'Leslie','Andrews','leslie@luv2code.com','$2a$10$yTnrThU8bAirB2CIt7lFwekVcD.qNz5gWsGJfz9b26IwUfcHNTl5e'),
-# (2,'Emma','Baumgarten','emma@luv2code.com','$2a$10$yTnrThU8bAirB2CIt7lFwekVcD.qNz5gWsGJfz9b26IwUfcHNTl5e'),
-# (3,'Avani','Gupta','avani@luv2code.com','$2a$10$yTnrThU8bAirB2CIt7lFwekVcD.qNz5gWsGJfz9b26IwUfcHNTl5e'),
-# (4,'Yuri','Petrov','yuri@luv2code.com','$2a$10$yTnrThU8bAirB2CIt7lFwekVcD.qNz5gWsGJfz9b26IwUfcHNTl5e'),
-# (5,'Juan','Vega','juan@luv2code.com','$2a$10$yTnrThU8bAirB2CIt7lFwekVcD.qNz5gWsGJfz9b26IwUfcHNTl5e');
-# insert into role values (1,'ROLE_ADMIN');
-# insert into role values (2,'ROLE_USER');
+INSERT INTO `user` VALUES
+(1,'leslie@luv2code.com','Andrews','Leslie','$2a$10$yTnrThU8bAirB2CIt7lFwekVcD.qNz5gWsGJfz9b26IwUfcHNTl5e'),
+(2,'emma@luv2code.com','Baumgarten','Emma','$2a$10$yTnrThU8bAirB2CIt7lFwekVcD.qNz5gWsGJfz9b26IwUfcHNTl5e'),
+(3,'avani@luv2code.com','Gupta','Avani','$2a$10$yTnrThU8bAirB2CIt7lFwekVcD.qNz5gWsGJfz9b26IwUfcHNTl5e'),
+(4,'yuri@luv2code.com','Petrov','Yuri','$2a$10$yTnrThU8bAirB2CIt7lFwekVcD.qNz5gWsGJfz9b26IwUfcHNTl5e'),
+(5,'juan@luv2code.com','Vega','Juan','$2a$10$yTnrThU8bAirB2CIt7lFwekVcD.qNz5gWsGJfz9b26IwUfcHNTl5e');
+insert into role values (1,'ROLE_ADMIN');
+insert into role values (2,'ROLE_USER');
+
 
 
 insert into user_role values (1,1);
