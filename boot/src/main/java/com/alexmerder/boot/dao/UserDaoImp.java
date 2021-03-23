@@ -39,11 +39,11 @@ public class UserDaoImp implements UserDao{
     }
 
     @Override
-    public User loadUserByUserName(String name) {
+    public User loadUserByUserName(String email) {
         TypedQuery<User> query =  entityManager
-                .createQuery("from User user join fetch user.roles where user.firstName=:name",
+                .createQuery("from User user join fetch user.roles where user.email=:email",
                         User.class);
-        query.setParameter("name", name);
+        query.setParameter("email", email);
         return query.getSingleResult();
     }
 
